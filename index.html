@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Object recognizer : Takes an image and creates a database of the objects in it. A second image is then fed into the program to see if any of the same objects exist in the second image." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Object recognizer</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/aneemtalukder/object_recognizer">View on GitHub</a>
+
+          <h1 id="project_title">Object recognizer</h1>
+          <h2 id="project_tagline">Takes an image and creates a database of the objects in it. A second image is then fed into the program to see if any of the same objects exist in the second image.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/aneemtalukder/object_recognizer/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/aneemtalukder/object_recognizer/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Takes an image of objects such as this: 
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/two_objects.png" alt="original"></p>
+
+<p>Converts it to a binary image:
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/binary_image.jpg" alt="binary image"></p>
+
+<p>Then determines the different objects with a sequential labeling algorithm. They are given different color values to visually tell the different objects:
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/labeled_objects.png" alt="labeled objects"></p>
+
+<p>Creates a database of the objects and its features. These include center of mass, minimum moment and orientation. Line of orientation and center are plotted:
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/parsed_objects.png" alt="object features"></p>
+
+<p>Takes another image such as this:
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/many_objects_1.png" alt="another image"></p>
+
+<p>And if some objects are recognized, those objects' orientations and centers are drawn:
+<img src="https://raw.github.com/aneemtalukder/object_recognizer/master/recognized.png" alt="recognized objects"></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Object recognizer maintained by <a href="https://github.com/aneemtalukder">aneemtalukder</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
